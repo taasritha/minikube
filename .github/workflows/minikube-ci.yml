@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4  # Checkout the code
       with:
-        repository: minikube
+        repository: taasritha/minikube
 
     - name: Start minikube
       uses: medyagh/setup-minikube@latest
